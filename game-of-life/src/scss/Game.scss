@@ -1,0 +1,94 @@
+body{
+  background: url('../images/Rainbow.jpg');
+  background-size: contain;background-color: #FFF;
+}
+.container{
+  background-color: #FFF;
+  padding: 0 20px;
+  width: 1200px!important;
+  position: relative;
+  top: 20px !important;
+  border-radius: 5px;
+}
+div.app{
+  display: flex;
+}
+div.game{
+  margin-right: 20px;
+}
+div.rules{
+  margin-left: 20px;
+}
+.main-title{
+  text-align: center;
+}
+label{
+  display: default!important;
+}
+div.ui.card{
+  width: 200px;
+}
+div.ui.card div.image{
+  margin: 0 auto;
+  width: 108.5px;
+}
+.ui.buttons{
+  width: 100%;
+  margin-top: 15px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid purple;
+  border-radius: 3px;
+}
+.ui.button{
+  position: relative!important;
+  bottom: -1px!important;
+}
+h2{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.h2-rules{
+  margin-bottom: 32px;
+}
+input{
+  margin: 5px 0 12px 0;
+}
+.reset-btn{
+  border-left: 1px solid purple!important;
+  border-right: 1px solid purple!important;
+}
+.purple-btn:hover{
+  background-color: purple!important;
+  color: white!important;
+}
+.red-btn:hover{
+  background-color: red!important;
+  color: white!important;
+}
+.orange-btn:hover{
+  background-color: orange!important;
+  color: white!important;
+}
+.green-btn:hover{
+  background-color: green!important;
+  color: white!important;
+}
+.teal-btn:hover{
+  background-color: teal!important;
+  color: white!important;
+}
+.logo{
+  margin-top: 5px!important;
+}
+span{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.ui.left.icon.input{
+  width: 60%!important;
+}
+.grid{
+  margin-bottom: 10px;
+}
