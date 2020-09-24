@@ -7,19 +7,25 @@ You can read more about the Game of life <a href="https://en.wikipedia.org/wiki/
 
 <p>This is a project that I built out for the Computer Science portion of Lambda School's curriculum. It's a Build Week project that's utilizing what was learned about algorithms and understanding the concept of Turing Completeness.</p>
 
-<p>You can view my project live here</p>
+<p>You can view my project live here <-- turn into link to deployed project</p>
 
-<p>(replace with screenshot when app is finished)</p>
-
+![Screenshot](game-of-life/src/images/Conway's-Game-of-Life.png?raw=true)
 ### Features
 
 <ul>
-  <li>List Features</li>
+  <li>Click on the grid to place your own squares</li>
+  <li>Choose from some presets</li>
+  <li>Adjust the speed</li>
+  <li>Randomize the grid</li>
+  <li>Press play, pause, or clear</li>
 </ul>
 
 ### Built Using
 <ul>
-  <li>List Tech Used</li>
+  <li>React</li>
+  <li>Semantic-UI React</li>
+  <li>Immer</li>
+  <li>Node-Sass</li>
 </ul>
 
 ## Installation Instructions
