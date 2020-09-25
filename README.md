@@ -7,7 +7,7 @@ You can read more about the Game of life <a href="https://en.wikipedia.org/wiki/
 
 <p>This is a project that I built out for the Computer Science portion of Lambda School's curriculum. It's a Build Week project that's utilizing what was learned about algorithms and understanding the concept of Turing Completeness.</p>
 
-<p>You can view my project live here <-- turn into link to deployed project</p>
+<p>You can view my project live <a href="https://game-of-life.kroaix.vercel.app/" target="blank">here</a></p>
 
 ![Screenshot](game-of-life/src/images/Conway's-Game-of-Life.png?raw=true)
 ### Features
