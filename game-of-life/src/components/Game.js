@@ -246,6 +246,7 @@ const Game = () => {
   }
   return (
     <>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <div className="game">
         <span><h2>Generation: #{generation}</h2>
         <Input placeholder={`Enter speed in ms. Current: ${speed}ms`} icon="fast forward" iconPosition="left" type="input" onChange={e => setSpeed(e.target.value)} />
