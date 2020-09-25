@@ -261,6 +261,7 @@ const Game = () => {
           {grid.map((rows, i) => 
             rows.map((col, j) => (
               <div  
+                className="cells"
                 key={`${i}-${j}`}
                 onClick={() => {
                   // don't want to mutate the state value so we are using the immer library and the produce function
@@ -271,8 +272,8 @@ const Game = () => {
                   setGrid(newGrid)
                 }}
                 style={{
-                  width: 21, 
-                  height: 21, 
+                  width: '21px',
+                  height: '21px',
                   backgroundColor: grid[i][j] ? `${'#'+Math.floor(Math.random()*16777215).toString(16)}` : '#FFF',
                   // border: '1px solid black'
                 }} 
