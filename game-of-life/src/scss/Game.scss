@@ -1,6 +1,8 @@
 body{
   background: url('../images/Rainbow.jpg');
-  background-size: contain;background-color: #FFF;
+  background-size: contain;
+  background-color: #FFF;
+  background-repeat: repeat-x;
 }
 .container{
   background-color: #FFF;
@@ -91,4 +93,102 @@ span{
 }
 .grid{
   margin-bottom: 10px;
+}
+
+@media (min-width: 500px) and (max-width: 590px) {
+  div.ui.container{
+    width: 100%!important;
+    margin-left: 0px!important;
+    padding: 0 5px 0 5px;
+  }
+  div.app{
+    flex-wrap: wrap;
+  }
+  div.presets{
+    margin: 20px auto;
+    display: flex!important;
+    flex-direction: row!important;
+    width: 465px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    .ui.red.card{
+      margin-top: 14px;
+    }
+    .ui.card{
+      width: 228px!important;
+      padding: 0;
+      
+    }
+    .button{
+      height: 100%;
+    }
+  }
+  div.cells{
+    width: '19px'!important;
+    height: '19px'!important;
+  }
+  div.game{
+    margin: 0 auto;
+  }
+  div.grid{
+    grid-template-columns: repeat(26, 18px)!important;
+    grid-template-rows: repeat(33, 18px)!important;
+  }
+  div.accordion{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 470px!important;
+  }
+  body{
+    background-repeat: no-repeat!important;
+  }
+}
+@media (min-width: 591px) and (max-width: 795px){
+  div.app{
+    flex-wrap: wrap;
+  }
+  div.game{
+    margin: 0 auto;
+  }
+  div.presets{
+    margin: 20px auto;
+    display: flex!important;
+    flex-direction: row!important;
+    width: 515px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    .ui.red.card{
+      margin-top: 14px;
+    }
+    .ui.card{
+      width: 250px!important;
+      padding: 0;
+      
+    }
+    .button{
+      height: 100%;
+    }
+  }
+  div.accordion{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 517px!important;
+  }
+}
+@media (min-width: 794px) and (max-width: 1174px) {
+  div.app{
+    flex-wrap: wrap;
+  }
+  div.game{
+    margin-left: auto;
+  }
+  div.presets{
+    margin-right: auto;
+  }
+  div.accordion{
+    margin: 20px auto;
+    width: 737px!important;
+  }
 }
